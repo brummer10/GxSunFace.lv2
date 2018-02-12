@@ -1,0 +1,30 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://guitarix.sourceforge.net/plugins/gx_SunFace_#_SunFace_>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-gxsunface.html> ;
+        modgui:stylesheet <modgui/stylesheet-gxsunface.css> ;
+        modgui:screenshot <modgui/screenshot-gxsunface.png> ;
+        modgui:thumbnail <modgui/thumbnail-gxsunface.png> ;
+        modgui:brand "Guitarix " ;
+        modgui:label "GxSunFace" ;
+        modgui:model "boxy" ;
+        modgui:panel "3-knobs" ;
+        modgui:color "sunface" ;
+        modgui:knob "cairo" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "INPUT" ;
+            lv2:name "INPUT" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "DRIVE" ;
+            lv2:name "DRIVE" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "VOLUME" ;
+            lv2:name "VOLUME" ;
+        ] ;
+    ] .
