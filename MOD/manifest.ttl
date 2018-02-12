@@ -23,7 +23,8 @@
 <http://guitarix.sourceforge.net/plugins/gx_SunFace_#_SunFace_>
     a lv2:Plugin ;
     lv2:binary <gx_SunFace.so>  ;
-    rdfs:seeAlso <gx_SunFace.ttl> .
+    rdfs:seeAlso <gx_SunFace.ttl> ,
+                 <modgui.ttl> .
 
 <default-preset>
     a <http://lv2plug.in/ns/ext/presets#Preset> ;
