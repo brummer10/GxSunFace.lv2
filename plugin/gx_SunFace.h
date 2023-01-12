@@ -34,7 +34,7 @@ typedef enum
    EFFECTS_INPUT,
    BYPASS,
    DRIVE, 
-   INPUT, 
+   INPUT_, 
    VOLUME, 
 } PortIndex;
 

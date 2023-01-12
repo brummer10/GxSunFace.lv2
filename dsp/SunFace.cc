@@ -295,7 +295,7 @@ void Dsp::connect(uint32_t port,void* data)
 	case DRIVE: 
 		fslider0_ = (float*)data; // , 0.5, 0.0, 1.0, 0.01 
 		break;
-	case INPUT: 
+	case INPUT_: 
 		fslider1_ = (float*)data; // , 0.5, 0.0, 1.0, 0.01 
 		break;
 	case VOLUME: 
